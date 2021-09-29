@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px 0px;
+    font-family:unset ;
+    
+   
+  }
+  
+  body{
+    background-color: white ;
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+  
+  
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  
+  
+  .col {
+    height: 400px;
+    width: 30%;
+    background: #92a1e2;
+    border-radius: 20px;
+    box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.45);
+    margin: 2mm;
+  }
+  
+p{
+  font-size: 2em;
+  
+}
+
+  Button {
+    
+    margin: auto ;
+    margin-top: 4em ;
+    width: 80%;
+    height: 100px;
+
+   
+  }
+  
+
+  .name{
+    margin: 5mm ;
+    color: rgb(22, 7, 65) ;
+    text-transform: uppercase;
+    text-align: center;
+  
+  }
+  
+  .title{
+      font-size: 70%   ;
+      color: midnightblue;
+      padding: 100px  0 10% ;
+      text-align: center;
+      text-shadow: -3px 3px 2px #805e8d;
+      
+  }
+  
+  .gauges{
+    margin: "auto" ; 
+    margin-top: 4em ;
+      
+  }
+
+  .thermometer{
+    margin: auto ;
+    margin-top: 2em ;
+  }
+
+
+ 
+  

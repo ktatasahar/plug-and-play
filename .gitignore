@@ -1,0 +1,6 @@
+plug-and-play/backend/node_modules
+plug-and-play/frontend/node_modules
+plug-and-play/backend/dist
+.vscode
+plug-and-play/.vscode
+plug-and-play/frontend/.vscode
