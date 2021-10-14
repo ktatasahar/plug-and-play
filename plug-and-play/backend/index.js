@@ -2,9 +2,6 @@
 import mongoose from "mongoose"
 
 
-const CONNECTION_URL = 'mongodb+srv://Plug_And_Play:280516@cluster0.ehgtd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-const PORT = process.env.PORT || 5000 ; 
-
 import Data from "./models/data.js";
 
 import mqtt from 'mqtt'
@@ -15,6 +12,9 @@ import cors from 'cors'
 
 import { createServer } from "http";
 import { Server } from "socket.io"
+
+const CONNECTION_URL = 'mongodb+srv://Plug_And_Play:280516@cluster0.ehgtd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const PORT = process.env.PORT || 5000 ; 
 const app = express() ; 
 
 

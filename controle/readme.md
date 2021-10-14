@@ -2,16 +2,23 @@
 
 
 1) Configure ESP32 for use with your system:
+
 	-Before doing anything, ensure that you have the UART to USB bridge driver installed on your system.
 	the driver can be downloaded from this link: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+
 	-Next, go into File/Preferences -> Additional Boards Managers URLs, and paste the link in the text field:
 	https://dl.espressif.com/dl/package_esp32_index.json
 
 2) The following libraries are required in Arduino IDE in order for this code to execute:
+
 	-PubSubClient (Acquired in Sketch/Include Library/Manage Libraries + Search for 'PubSubClient')
+
 	-ESP32 (Acquired in Tools/Boards/Boards Manager + Search for 'esp32')
+
         -DHTesp (Acquired in Tools/Boards/Boards Manager + Search for 'DHTesp')
+
         -Adafruit_MQTT_Library (Acquired in Tools/Boards/Boards Manager + Search for 'Adafruit_MQTT_Library ')
+
         -ArduinoJson (Acquired in Tools/Boards/Boards Manager + Search for 'ArduinoJson  ')
 
 3) Ensure that the ESP32 Dev Board is selected in Tools/Board/ESP32->ESP32 Dev Kit
